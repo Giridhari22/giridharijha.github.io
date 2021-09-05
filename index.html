@@ -1,0 +1,201 @@
+<!-- as we notice css treat every paragraph and text as boxes so we have to play with those boxes -->
+<!-- we can change border width by {border-width: solid:/5px , border-top:10px and so on in styles.css file} -->
+<!-- padding: 20px; we can create gap between images/letter  with border -->
+<!-- margin: 10px; is the buffer zone between the current lement and any other that are on screen -->
+
+<!-- there is a display property and it has four property 1.block 2.inline 3.inline-block 4.none -->
+<!-- common block elements -.paragraphs<p> .headers(<h1> to <h6> .division <div>
+  .lists and list items<ol>,<ul>, and <li -list item>  . forms(<form>))-->
+
+  <!-- common inline elements 1.spans(<span>)  .images(<img>) .anchors(<a>) -->
+<!-- in css there is two main position 1 static - default position  2 relative - can change by the user by using margin and all
+   img{
+   position: relative;
+   right/left/top/bottom: 30px;
+in relative positioning if we let say use left:30px; then image goes to right
+ }-->
+
+ <!-- absolute position -->
+ <!-- format div{
+ position: relative
+}
+img{
+position: absolute
+right: 30px;
+in absolue if image is intended on any background color and we move right by 30px it will move in right
+}
+ -->
+<!-- in fixed positioning
+format div{
+position: fixed
+then in all codition image position will be fixed after the scrolling up and down.
+}  -->
+
+<!-- 12 css sizing- in this we  are going to change the font-size in pixel or percentage and when we change it will be fixed either we zoom out or in
+font-size : 5.635 rem (means root em in which we ignore  parents settings) -->
+
+<!-- css floating - means image  is in the left and text is in the right corner
+float: left;  (text  goes to the right of the  image)-->
+
+<!-- clear - clear:left; in this if thwe text is wrap around the image by using clear sentence it will go down -->
+
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Giridhari Jha</title>
+    <!-- add styles.css folder  -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- add folder favicon.ico and make logo from favicon.cc site-->
+    <link rel="icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@100&family=Sacramento&display=swap" >
+  </head>
+  <body>
+    <!-- div=content division element is a special HTML  element that allows us to divide our content
+    up on our website  so we can structure div seperately-->
+    <div class="top-container">
+      <!-- we have to add image of mountain and cloud -->
+      <img  class = "top-cloud" src="images/cloud.png" alt="cloud-img">
+      <h1>I`m Giridhari.</h1>
+      <!-- here span is used to select the word and we can do anything with the selected word -->
+      <h2><strong>a <span class="youtuber"></strong><a href="https://www.youtube.com/channel/UCaoaaHXj1zZ0Mu3WBXdifVA/">youtuber.</a></span></h2>
+      <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+      <img src="images/mountain.png" alt="mountain-img">
+
+
+      <div class="middle-container">
+        <div class="profile">
+          <img src="images/profile pic.png"
+           alt="Giridhari profile picture "width="200"
+         height="200" />
+          <img  class = "top-cloud" src="images/cloud.png" alt="cloud-img">
+          <h2>Hello.</h2>
+          <p class ="Intro"> I am a Youtuber And a Guitarist. Uploaded Many Videos On youtube. Feel Free To Like Share And Subscribe  .</p>
+
+        </div>
+        <hr>
+
+          <h2 class="myvideos">My Videos.</h2>
+            <div class="videos">
+          <div class="video -row">
+
+
+            <ul> <!--unordered list- simply we have to add lists under it-->
+              <!-- link in html -->
+              <!-- <a href="#"></a> this is the tag by which we can set link between the line u wanted to be -->
+              <h4><li> <strong><a class="link" href="https://youtu.be/NcA9IakhAzg">Tujhe Bhoolna Toh Chaaha|RochakKft.jubinN|Guitar Cover(Giridhari jha)</a></strong></li></h4> <!--items in the list which we want to add-->
+            <h5>  <li><strong><a class="link" href="https://youtu.be/KVjP_5Zhbd8">Tere Naam Guitar Tabs/Lead Lesson (Intro) |Easy For Beginners</a></strong></li></h5>
+              <h4><li><strong><a class="link" href="https://youtu.be/liTZAESaqxI">Raaz Song || Guitar Cover || Guitar Lesson || Raaz (Giridhari Jha)</a></strong></li></h4>
+              <h5><li><strong><a class="link" href="https://youtu.be/bHOqIXwTzhU">Single String Guitar Songs Mashup-10 Arijit Singh Songs|Easy One String Bollywood Hindi Tabs</a></strong></li></h5>
+              <h4><li><strong><a class="link" href="https://youtu.be/_5yB1MyAg7E">Tum Hi Aana Guitar Tabs Lesson With Cover For Beginners| Jubin Nautiyal |Marjaavan|</a></strong></li></h4>
+              <h5><li><strong><a class="link" href="https://youtu.be/L7cDRAaXwhs">Kabir Singh : Tujhe Kitna Chahne Lage // Fingerstyle Guitar Cover</a></strong></li></h5>
+              <h4><li><strong><a class="link" href="https://youtu.be/mdHcmTV0vKQ">Khairiyat Pucho Guitar Cover Lesson  | Chhichhore</a></strong></li></h4>
+              <h5><li><strong><a class="link" href="https://youtu.be/YBlvsl1ye18">shiv tandav guitar tab lesson cover|shankar mahadevan|</a></strong></li></h5>
+              <h4><li><strong><a class="link" href="https://youtu.be/gUuHVZ-NzHk">Ek Pyar Ka Nagma Hai Guitar Cover|Fingerstyle Cover</a></strong></li></h4>
+              <h5><li><strong><a class="link" href="https://youtu.be/o_ubKO0inH0">Namo Namo Guitar Chords Lesson||(kedarnath)||Amit Trivedi</a></strong></li></h5>
+              <h4><li><strong><a class="link" href="https://youtu.be/NI1KfQvIpzY">Teri Mitti Guitar Lesson||Teri Mitti Guitar Cover| Best video ever</a></strong></li></h4>
+              <h5><li><strong><a  class="link" href="https://youtu.be/yrdE0NSkqDU">Gulabi  Aankhen (SANAM) | Fingerstyle Guitar Cover</a> </strong></li></h5>
+            </ul>
+          </div>
+
+
+        <img class="bottom2-cloud" src="images/cloud.png" alt="cloud-img">
+
+            <hr>
+            <h2>My skill</h2>
+            <div class="skill-row">
+            <p> <!-- here we make table with two boxes with skills -->
+
+                   <table cellspacing = "20">
+
+                     <tr>
+                       <td>Playing Guitar</td>
+                       <td>💖💖💖💖</td> <!--to add emoji press win +. -->
+                      </tr>
+
+                     <tr>
+                       <td>riding bike</td>
+                       <td>💖💖💖💖💖</td> <!--to add emoji press win +. -->
+                     </tr>
+
+                     <tr>
+                       <td>coding</td>
+                       <td>💖💖</td> <!--to add emoji press win +. -->
+                     </tr>
+
+                     <tr>
+                        <td>drawing</td>
+                       <td>💖💖💖💖</td> <!--to add emoji press win +. -->
+                     </tr>
+
+                   </table>
+
+.</p>
+
+
+     <!-- <p>  <a href="drawing.html">click to see my Drawings</a></p> -->
+          </div>
+        </div>
+        <hr>
+        <div class="contact-me">
+          <h2>Get In Touch</h2>
+          <!-- add drawing file -->
+          <p><a href="drawing.html">click to see my Drawings</a></p>
+          <a class="btn-contact-me" href="mailto:giridharijha123@gmail.com"> CONTACT ME</a>
+        </div>
+      </div>
+
+
+      <div class="bottom-container">
+        <a
+        <head>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity.="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362oM3lonlgyExkL0=" crossorigin="anonymus" />
+            <style>
+
+
+
+
+.fa-facebook{
+  colour: blue;
+}
+.fa-whatsapp{
+  color: green;
+}
+.fa-instagram{
+   color:
+   Hex: #8a3ab9
+RGB: 138, 58, 185;
+}
+            </style>
+
+</head>
+
+
+<div class ="centerdiv">
+<a class="btn-2"  href="https://www.facebook.com/giridharijha.chunnu" target="_blank">
+<i class= "fa fa-2x fa-facebook"> </i>
+</a>
+
+<a class="btn"
+href="https://www.instagram.com/giridhari_j_h_a/" target="_blank">
+<i class ="fa fa-2x fa-instagram"></i>
+</a>
+
+<a class="btn-youtube"
+href="https://wa.me/<+919060294734>" target="_blank">
+<i class =" fa fa-2x fa-whatsapp"></i>
+</a>
+
+      <p class="copyright">©  Name Giridhari jha.</p>
+      </div>
+      <div>
+
+</div>
+
+
+
+
+
+  </body>
+</html>

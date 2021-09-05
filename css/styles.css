@@ -1,0 +1,159 @@
+/* replace the body and h1 to its 0th position */
+body{
+
+  margin: 0;
+/* for alignig heading to center  */
+  text-align: center;
+  /* change font of all family */
+  /* font-family:  'Sacramento',cursive; */
+}
+h1{
+  color: rebeccapurple;
+  font-size: 50px;
+
+
+  /* width:  10%;
+  /* for align paragraph in center there is a another way */
+  /* margin : 0 auto ; */
+  /*top and bottom will be 0 and right and left will be auto  */ */
+  font-family: 'Merriweather',cursive;
+}
+
+h2{
+  color: rebeccapurple;
+  font-family:  'Merriweather',cursive;
+  font-size: 2rem ;
+  font-weight: normal;
+  /* margin: auto; */
+  /* padding: 30px; */
+
+}
+
+h3{
+  color: red;
+  font-family:  'Sacramento',cursive;
+  margin-left: 30px;
+  padding: 20px;
+}
+h4{
+
+  font-family:  'Merriweather',cursive;
+  margin-left: 30px;
+  padding: 10px;
+}
+h5{
+  font-family:  'Merriweather',cursive;
+  margin-left: 30px;
+  padding: 10px;
+}
+p{
+  line-height: 2;
+}
+a{
+  margin: 10px;
+}
+hr{
+  /* make horizontal row as dotted line */
+  border: dotted #EAF6F6 6PX;
+  border-bottom: none;
+  width: 10%;
+  margin: 10px auto;
+}
+/* change the color of the div box */
+/* when we pick up the container then we have to add dot */
+.top-container{
+  background-color: rgba(155, 255, 158, .5);
+  /* width:200px;
+  height: 200px;
+  border: solid 10px; */
+  /* to make top cloud and letter padding from top  */
+  position : relative;
+  padding-top: 100px;
+
+}
+
+.skill-row{
+  position: relative;
+  margin-left:  250px ;
+  width: 60%;
+font-size: 20px;
+}
+
+.middle-container{
+  margin: 100px 0;
+  /* background-color: red;
+  width:200px;
+  height: 200px;
+  /* border: solid 20px;
+  margin-left: 22px; */ */
+
+}
+
+/* .myvideos{
+  margin: 50px;
+} */
+.bottom-container{
+  /* background-color: blue;
+  /* width:200px;
+  height: 200px; */
+  /* border: solid 10px;
+  margin-left: 460px; */
+}
+
+/* before using class we have to use dot */
+.youtuber{
+  text-decoration: underline
+}
+
+.Intro{
+  width: 30%;
+  margin: auto;
+  font-size: 20px;
+}
+/* to gap between link */
+
+.bottom-cloud{
+  position: relative;
+  right: 250px;
+  bottom: 200px;
+}
+
+.bottom2-cloud{
+   position:relative;
+   right: 500px;
+   bottom: 40px;
+}
+.profile{
+  position: relative;
+  padding: 20px;
+  margin-left:  150px;
+}
+.top-cloud{
+  position: absolute;
+  right : 10px;
+  top: 40px;
+}
+/* for icon like facebook */
+.centerdiv{
+position: relative;
+  bottom:  80px;
+}
+}
+
+.giridhari{
+  border : solid 5px;
+}
+
+/* make different link visible with another colour */
+a:hover{
+  color: blue;
+  text-decoration: none;
+}
+.copyright{
+  color: blue;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+/* .painting{
+  border: solid 20px;
+} */
